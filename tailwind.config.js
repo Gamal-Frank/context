@@ -8,6 +8,7 @@ export default {
     extend: {
       backgroundImage:{
         'bokemonbar':"url('public/assets/wp8797760.jpg')",
+        'bokemon':"url('/public/assets/wallhaven-496qpk.jpg')"
       }
     },
   },
