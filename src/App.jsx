@@ -1,4 +1,5 @@
 import { useCallback, useState } from "react";
+import Bar from "./Bar";
 
 function App() {
   const [pokemon, setPokemon] = useState({ id: null, name: "", sprites: "" });
@@ -20,6 +21,7 @@ function App() {
 
   return (
     <div>
+      <Bar />
       <button onClick={search}>search</button>
       
       <input

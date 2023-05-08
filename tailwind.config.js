@@ -5,7 +5,11 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage:{
+        'bokemonbar':"url('public/assets/wp8797760.jpg')",
+      }
+    },
   },
   plugins: [],
 }
